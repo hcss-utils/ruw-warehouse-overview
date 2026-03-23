@@ -46,7 +46,7 @@
     main {
       flex: 1;
       padding: 32px;
-      max-width: 1100px;
+      max-width: 1400px;
       width: 100%;
       margin: 0 auto;
     }
@@ -112,6 +112,10 @@
     td.col-num   { color: #a9abb8; font-size: 0.82rem; }
     td.col-source { font-weight: 600; }
     td.col-docs  { font-variant-numeric: tabular-nums; }
+    td.col-lang  { color: #6b7280; font-size: 0.8rem; letter-spacing: 0.03em; }
+    td.col-chunks { font-variant-numeric: tabular-nums; }
+    td.col-relevant { font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .rel-pct { color: #a9abb8; font-size: 0.8rem; margin-left: 4px; }
 
     .badge {
       display: inline-block;
@@ -158,6 +162,14 @@
         <div class="card-label">Total Documents</div>
         <div class="card-value">{{ total_docs }}</div>
       </div>
+      <div class="card">
+        <div class="card-label">Total Chunks</div>
+        <div class="card-value">{{ total_chunks }}</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Latest Data</div>
+        <div class="card-value">{{ max_date }}</div>
+      </div>
     </div>
 
     <table>
@@ -165,7 +177,10 @@
         <tr>
           <th>#</th>
           <th>Source</th>
+          <th>Lang</th>
           <th>Documents</th>
+          <th>Chunks</th>
+          <th>Relevant chunks</th>
           <th>Last Updated</th>
         </tr>
       </thead>
@@ -174,7 +189,12 @@
         <tr>
           <td class="col-num">{{ loop.index }}</td>
           <td class="col-source">{{ s.database }}</td>
+          <td class="col-lang">{{ s.languages }}</td>
           <td class="col-docs">{{ s.num_docs }}</td>
+          <td class="col-chunks">{{ s.num_chunks }}</td>
+          <td class="col-relevant">
+            {{ s.relevant_chunks }}{% if s.relevant_pct != '—' %}<span class="rel-pct">({{ s.relevant_pct }}%)</span>{% endif %}
+          </td>
           <td>
             {{ s.last_updated }}
             {% if s.days_ago is not none %}

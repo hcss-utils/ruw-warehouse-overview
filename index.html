@@ -46,7 +46,7 @@
     main {
       flex: 1;
       padding: 32px;
-      max-width: 1100px;
+      max-width: 1400px;
       width: 100%;
       margin: 0 auto;
     }
@@ -112,6 +112,10 @@
     td.col-num   { color: #a9abb8; font-size: 0.82rem; }
     td.col-source { font-weight: 600; }
     td.col-docs  { font-variant-numeric: tabular-nums; }
+    td.col-lang  { color: #6b7280; font-size: 0.8rem; letter-spacing: 0.03em; }
+    td.col-chunks { font-variant-numeric: tabular-nums; }
+    td.col-relevant { font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .rel-pct { color: #a9abb8; font-size: 0.8rem; margin-left: 4px; }
 
     .badge {
       display: inline-block;
@@ -158,6 +162,14 @@
         <div class="card-label">Total Documents</div>
         <div class="card-value">2,393,050</div>
       </div>
+      <div class="card">
+        <div class="card-label">Total Chunks</div>
+        <div class="card-value">2,569,181</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Latest Data</div>
+        <div class="card-value">23 Mar 2026</div>
+      </div>
     </div>
 
     <table>
@@ -165,7 +177,10 @@
         <tr>
           <th>#</th>
           <th>Source</th>
+          <th>Lang</th>
           <th>Documents</th>
+          <th>Chunks</th>
+          <th>Relevant chunks</th>
           <th>Last Updated</th>
         </tr>
       </thead>
@@ -174,7 +189,12 @@
         <tr>
           <td class="col-num">1</td>
           <td class="col-source">telegram_expert analysis</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">191,753</td>
+          <td class="col-chunks">191,754</td>
+          <td class="col-relevant">
+            79<span class="rel-pct">(0.0%)</span>
+          </td>
           <td>
             23 Mar 2026
             
@@ -186,7 +206,12 @@
         <tr>
           <td class="col-num">2</td>
           <td class="col-source">telegram_War correspondent</td>
+          <td class="col-lang">UK/RU</td>
           <td class="col-docs">173,553</td>
+          <td class="col-chunks">175,995</td>
+          <td class="col-relevant">
+            40,890<span class="rel-pct">(23.2%)</span>
+          </td>
           <td>
             23 Mar 2026
             
@@ -198,7 +223,12 @@
         <tr>
           <td class="col-num">3</td>
           <td class="col-source">telegram_Experts</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">78,733</td>
+          <td class="col-chunks">78,759</td>
+          <td class="col-relevant">
+            2,978<span class="rel-pct">(3.8%)</span>
+          </td>
           <td>
             23 Mar 2026
             
@@ -210,7 +240,12 @@
         <tr>
           <td class="col-num">4</td>
           <td class="col-source">vk</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">74,660</td>
+          <td class="col-chunks">74,660</td>
+          <td class="col-relevant">
+            10,434<span class="rel-pct">(14.0%)</span>
+          </td>
           <td>
             23 Mar 2026
             
@@ -222,7 +257,12 @@
         <tr>
           <td class="col-num">5</td>
           <td class="col-source">bluesky</td>
+          <td class="col-lang">UK/RU/EN/CS/DE</td>
           <td class="col-docs">46,522</td>
+          <td class="col-chunks">45,814</td>
+          <td class="col-relevant">
+            2,540<span class="rel-pct">(5.5%)</span>
+          </td>
           <td>
             23 Mar 2026
             
@@ -234,7 +274,12 @@
         <tr>
           <td class="col-num">6</td>
           <td class="col-source">telegram_aggregator</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">726,250</td>
+          <td class="col-chunks">726,250</td>
+          <td class="col-relevant">
+            354<span class="rel-pct">(0.0%)</span>
+          </td>
           <td>
             22 Mar 2026
             
@@ -246,7 +291,12 @@
         <tr>
           <td class="col-num">7</td>
           <td class="col-source">telegram_Propagandist</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">305,810</td>
+          <td class="col-chunks">305,810</td>
+          <td class="col-relevant">
+            19,494<span class="rel-pct">(6.4%)</span>
+          </td>
           <td>
             22 Mar 2026
             
@@ -258,7 +308,12 @@
         <tr>
           <td class="col-num">8</td>
           <td class="col-source">telegram_local</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">299,055</td>
+          <td class="col-chunks">299,071</td>
+          <td class="col-relevant">
+            80<span class="rel-pct">(0.0%)</span>
+          </td>
           <td>
             22 Mar 2026
             
@@ -270,7 +325,12 @@
         <tr>
           <td class="col-num">9</td>
           <td class="col-source">telegram_Official</td>
+          <td class="col-lang">UK/RU</td>
           <td class="col-docs">211,973</td>
+          <td class="col-chunks">212,585</td>
+          <td class="col-relevant">
+            14,462<span class="rel-pct">(6.8%)</span>
+          </td>
           <td>
             22 Mar 2026
             
@@ -282,7 +342,12 @@
         <tr>
           <td class="col-num">10</td>
           <td class="col-source">telegram_Cossack</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">76,014</td>
+          <td class="col-chunks">76,014</td>
+          <td class="col-relevant">
+            19,515<span class="rel-pct">(25.7%)</span>
+          </td>
           <td>
             22 Mar 2026
             
@@ -294,7 +359,12 @@
         <tr>
           <td class="col-num">11</td>
           <td class="col-source">telegram_military units</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">47,314</td>
+          <td class="col-chunks">47,316</td>
+          <td class="col-relevant">
+            39<span class="rel-pct">(0.1%)</span>
+          </td>
           <td>
             22 Mar 2026
             
@@ -306,7 +376,12 @@
         <tr>
           <td class="col-num">12</td>
           <td class="col-source">isw</td>
+          <td class="col-lang">EN</td>
           <td class="col-docs">1,569</td>
+          <td class="col-chunks">2,889</td>
+          <td class="col-relevant">
+            1,718<span class="rel-pct">(59.5%)</span>
+          </td>
           <td>
             22 Mar 2026
             
@@ -318,7 +393,12 @@
         <tr>
           <td class="col-num">13</td>
           <td class="col-source">kremlin</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">1,596</td>
+          <td class="col-chunks">2,417</td>
+          <td class="col-relevant">
+            43<span class="rel-pct">(1.8%)</span>
+          </td>
           <td>
             19 Mar 2026
             
@@ -330,7 +410,12 @@
         <tr>
           <td class="col-num">14</td>
           <td class="col-source">russiamatters</td>
+          <td class="col-lang">EN</td>
           <td class="col-docs">3,457</td>
+          <td class="col-chunks">30,401</td>
+          <td class="col-relevant">
+            1,152<span class="rel-pct">(3.8%)</span>
+          </td>
           <td>
             18 Mar 2026
             
@@ -342,7 +427,12 @@
         <tr>
           <td class="col-num">15</td>
           <td class="col-source">therussiaprogram</td>
+          <td class="col-lang">EN</td>
           <td class="col-docs">881</td>
+          <td class="col-chunks">918</td>
+          <td class="col-relevant">
+            441<span class="rel-pct">(48.0%)</span>
+          </td>
           <td>
             18 Mar 2026
             
@@ -354,7 +444,12 @@
         <tr>
           <td class="col-num">16</td>
           <td class="col-source">wotr</td>
+          <td class="col-lang">EN</td>
           <td class="col-docs">2,072</td>
+          <td class="col-chunks">5,681</td>
+          <td class="col-relevant">
+            873<span class="rel-pct">(15.4%)</span>
+          </td>
           <td>
             12 Mar 2026
             
@@ -366,7 +461,12 @@
         <tr>
           <td class="col-num">17</td>
           <td class="col-source">state_duma</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">325</td>
+          <td class="col-chunks">3,939</td>
+          <td class="col-relevant">
+            6<span class="rel-pct">(0.2%)</span>
+          </td>
           <td>
             12 Mar 2026
             
@@ -378,7 +478,12 @@
         <tr>
           <td class="col-num">18</td>
           <td class="col-source">integrum</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">67,304</td>
+          <td class="col-chunks">75,839</td>
+          <td class="col-relevant">
+            23,376<span class="rel-pct">(30.8%)</span>
+          </td>
           <td>
             10 Mar 2026
             
@@ -390,7 +495,12 @@
         <tr>
           <td class="col-num">19</td>
           <td class="col-source">realclearworld</td>
+          <td class="col-lang">RU/EN/AR/BCL/CA</td>
           <td class="col-docs">5,470</td>
+          <td class="col-chunks">8,950</td>
+          <td class="col-relevant">
+            317<span class="rel-pct">(3.5%)</span>
+          </td>
           <td>
             4 Mar 2026
             
@@ -402,7 +512,12 @@
         <tr>
           <td class="col-num">20</td>
           <td class="col-source">ponars</td>
+          <td class="col-lang">RU/EN/AR/AS/BG</td>
           <td class="col-docs">1,592</td>
+          <td class="col-chunks">1,847</td>
+          <td class="col-relevant">
+            47<span class="rel-pct">(2.5%)</span>
+          </td>
           <td>
             23 Feb 2026
             
@@ -414,7 +529,12 @@
         <tr>
           <td class="col-num">21</td>
           <td class="col-source">youtube</td>
+          <td class="col-lang">UK/RU/EN</td>
           <td class="col-docs">1,606</td>
+          <td class="col-chunks">3,949</td>
+          <td class="col-relevant">
+            13<span class="rel-pct">(0.3%)</span>
+          </td>
           <td>
             22 Feb 2026
             
@@ -426,7 +546,12 @@
         <tr>
           <td class="col-num">22</td>
           <td class="col-source">VM</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">105</td>
+          <td class="col-chunks">326</td>
+          <td class="col-relevant">
+            39<span class="rel-pct">(12.0%)</span>
+          </td>
           <td>
             1 Feb 2026
             
@@ -438,7 +563,12 @@
         <tr>
           <td class="col-num">23</td>
           <td class="col-source">federation_council</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">85</td>
+          <td class="col-chunks">4,449</td>
+          <td class="col-relevant">
+            8<span class="rel-pct">(0.2%)</span>
+          </td>
           <td>
             24 Nov 2025
             
@@ -450,7 +580,12 @@
         <tr>
           <td class="col-num">24</td>
           <td class="col-source">EVP-MIL</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">41,487</td>
+          <td class="col-chunks">46,145</td>
+          <td class="col-relevant">
+            10,720<span class="rel-pct">(23.2%)</span>
+          </td>
           <td>
             21 Jul 2025
             
@@ -462,7 +597,12 @@
         <tr>
           <td class="col-num">25</td>
           <td class="col-source">EVP-VM</td>
+          <td class="col-lang">RU</td>
           <td class="col-docs">154</td>
+          <td class="col-chunks">277</td>
+          <td class="col-relevant">
+            37<span class="rel-pct">(13.4%)</span>
+          </td>
           <td>
             31 Dec 2022
             
@@ -474,7 +614,12 @@
         <tr>
           <td class="col-num">26</td>
           <td class="col-source">google_scholar</td>
+          <td class="col-lang">UK/RU/EN/AF/ALS</td>
           <td class="col-docs">33,710</td>
+          <td class="col-chunks">147,126</td>
+          <td class="col-relevant">
+            2,545<span class="rel-pct">(1.7%)</span>
+          </td>
           <td>
             31 Dec 2024
             
@@ -488,7 +633,7 @@
   </main>
 
   <footer>
-    <span>Updated 23 Mar 2026, 08:29 UTC</span>
+    <span>Updated 23 Mar 2026, 08:55 UTC</span>
     <a href="https://github.com/hcss-utils/ruw-warehouse-overview" target="_blank">
       hcss-utils/ruw-warehouse-overview
     </a>
