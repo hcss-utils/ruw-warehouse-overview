@@ -1,0 +1,59 @@
+name: Update Stats & Deploy
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Generate stats
+        env:
+          DATABASE: ${{ secrets.DATABASE }}
+        run: uv run python main.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/stats.json
+          git diff --staged --quiet || (git commit -m "chore: update stats [skip ci]" && git push)
+
+      - name: Build site
+        run: |
+          mkdir -p _site/assets
+          cp index.html _site/
+          cp assets/hcss_logo.svg assets/rubase_logo.svg _site/assets/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - uses: actions/deploy-pages@v4
+        id: deployment

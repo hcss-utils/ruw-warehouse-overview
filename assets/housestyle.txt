@@ -1,0 +1,10 @@
+/* HCSS colouring based on house style*/ 
+Darkblue #1a3761
+Gold #dbad50
+Darkgray #a9abb8
+Lightgray #efefef
+Lightblue #82a0bc
+Green #a4a58d
+Red #c48469
+Yellow #d79c5a
+Purple #8B5CF6

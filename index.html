@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RUW Database Overview</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #efefef;
+      color: #1a3761;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: #1a3761;
+      padding: 14px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img.logo-hcss {
+      height: 36px;
+      width: auto;
+      filter: brightness(0) invert(1);
+    }
+
+    header img.logo-rubase {
+      height: 36px;
+      width: auto;
+      filter: brightness(0) invert(1);
+    }
+
+    header h1 {
+      color: #efefef;
+      font-size: 1.15rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+    }
+
+    main {
+      flex: 1;
+      padding: 32px;
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .summary {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 6px;
+      padding: 20px 28px;
+      flex: 1;
+      border-top: 3px solid #dbad50;
+      box-shadow: 0 1px 3px rgba(26,55,97,0.07);
+    }
+
+    .card-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: #a9abb8;
+      margin-bottom: 8px;
+    }
+
+    .card-value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1a3761;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 1px 3px rgba(26,55,97,0.07);
+    }
+
+    thead tr { background: #1a3761; }
+
+    thead th {
+      padding: 13px 20px;
+      text-align: left;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 600;
+      color: #efefef;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid #efefef;
+    }
+
+    tbody tr:last-child { border-bottom: none; }
+
+    tbody td { padding: 13px 20px; font-size: 0.92rem; }
+
+    td.col-num   { color: #a9abb8; font-size: 0.82rem; }
+    td.col-source { font-weight: 600; }
+    td.col-docs  { font-variant-numeric: tabular-nums; }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 9px;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 500;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    .badge-recent { background: #a4a58d22; color: #5a5f4a; }
+    .badge-old    { background: #c4846922; color: #8a5040; }
+
+    footer {
+      background: white;
+      border-top: 1px solid #e4e5ea;
+      padding: 14px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: #a9abb8;
+    }
+
+    footer a { color: #82a0bc; text-decoration: none; }
+    footer a:hover { color: #1a3761; }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="logo-hcss" src="assets/hcss_logo.svg" alt="HCSS">
+    <h1>RUW Database Overview</h1>
+    <img class="logo-rubase" src="assets/rubase_logo.svg" alt="RUBase">
+  </header>
+
+  <main>
+    <div class="summary">
+      <div class="card">
+        <div class="card-label">Sources</div>
+        <div class="card-value">26</div>
+      </div>
+      <div class="card">
+        <div class="card-label">Total Documents</div>
+        <div class="card-value">2,393,050</div>
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Source</th>
+          <th>Documents</th>
+          <th>Last Updated</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td class="col-num">1</td>
+          <td class="col-source">telegram_expert analysis</td>
+          <td class="col-docs">191,753</td>
+          <td>
+            23 Mar 2026
+            
+            <span class="badge badge-recent">0d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">2</td>
+          <td class="col-source">telegram_War correspondent</td>
+          <td class="col-docs">173,553</td>
+          <td>
+            23 Mar 2026
+            
+            <span class="badge badge-recent">0d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">3</td>
+          <td class="col-source">telegram_Experts</td>
+          <td class="col-docs">78,733</td>
+          <td>
+            23 Mar 2026
+            
+            <span class="badge badge-recent">0d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">4</td>
+          <td class="col-source">vk</td>
+          <td class="col-docs">74,660</td>
+          <td>
+            23 Mar 2026
+            
+            <span class="badge badge-recent">0d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">5</td>
+          <td class="col-source">bluesky</td>
+          <td class="col-docs">46,522</td>
+          <td>
+            23 Mar 2026
+            
+            <span class="badge badge-recent">0d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">6</td>
+          <td class="col-source">telegram_aggregator</td>
+          <td class="col-docs">726,250</td>
+          <td>
+            22 Mar 2026
+            
+            <span class="badge badge-recent">1d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">7</td>
+          <td class="col-source">telegram_Propagandist</td>
+          <td class="col-docs">305,810</td>
+          <td>
+            22 Mar 2026
+            
+            <span class="badge badge-recent">1d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">8</td>
+          <td class="col-source">telegram_local</td>
+          <td class="col-docs">299,055</td>
+          <td>
+            22 Mar 2026
+            
+            <span class="badge badge-recent">1d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">9</td>
+          <td class="col-source">telegram_Official</td>
+          <td class="col-docs">211,973</td>
+          <td>
+            22 Mar 2026
+            
+            <span class="badge badge-recent">1d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">10</td>
+          <td class="col-source">telegram_Cossack</td>
+          <td class="col-docs">76,014</td>
+          <td>
+            22 Mar 2026
+            
+            <span class="badge badge-recent">1d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">11</td>
+          <td class="col-source">telegram_military units</td>
+          <td class="col-docs">47,314</td>
+          <td>
+            22 Mar 2026
+            
+            <span class="badge badge-recent">1d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">12</td>
+          <td class="col-source">isw</td>
+          <td class="col-docs">1,569</td>
+          <td>
+            22 Mar 2026
+            
+            <span class="badge badge-recent">1d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">13</td>
+          <td class="col-source">kremlin</td>
+          <td class="col-docs">1,596</td>
+          <td>
+            19 Mar 2026
+            
+            <span class="badge badge-recent">4d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">14</td>
+          <td class="col-source">russiamatters</td>
+          <td class="col-docs">3,457</td>
+          <td>
+            18 Mar 2026
+            
+            <span class="badge badge-recent">5d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">15</td>
+          <td class="col-source">therussiaprogram</td>
+          <td class="col-docs">881</td>
+          <td>
+            18 Mar 2026
+            
+            <span class="badge badge-recent">5d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">16</td>
+          <td class="col-source">wotr</td>
+          <td class="col-docs">2,072</td>
+          <td>
+            12 Mar 2026
+            
+            <span class="badge badge-recent">11d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">17</td>
+          <td class="col-source">state_duma</td>
+          <td class="col-docs">325</td>
+          <td>
+            12 Mar 2026
+            
+            <span class="badge badge-recent">11d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">18</td>
+          <td class="col-source">integrum</td>
+          <td class="col-docs">67,304</td>
+          <td>
+            10 Mar 2026
+            
+            <span class="badge badge-recent">13d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">19</td>
+          <td class="col-source">realclearworld</td>
+          <td class="col-docs">5,470</td>
+          <td>
+            4 Mar 2026
+            
+            <span class="badge badge-recent">19d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">20</td>
+          <td class="col-source">ponars</td>
+          <td class="col-docs">1,592</td>
+          <td>
+            23 Feb 2026
+            
+            <span class="badge badge-recent">28d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">21</td>
+          <td class="col-source">youtube</td>
+          <td class="col-docs">1,606</td>
+          <td>
+            22 Feb 2026
+            
+            <span class="badge badge-recent">29d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">22</td>
+          <td class="col-source">VM</td>
+          <td class="col-docs">105</td>
+          <td>
+            1 Feb 2026
+            
+            <span class="badge badge-old">50d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">23</td>
+          <td class="col-source">federation_council</td>
+          <td class="col-docs">85</td>
+          <td>
+            24 Nov 2025
+            
+            <span class="badge badge-old">119d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">24</td>
+          <td class="col-source">EVP-MIL</td>
+          <td class="col-docs">41,487</td>
+          <td>
+            21 Jul 2025
+            
+            <span class="badge badge-old">245d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">25</td>
+          <td class="col-source">EVP-VM</td>
+          <td class="col-docs">154</td>
+          <td>
+            31 Dec 2022
+            
+            <span class="badge badge-old">1178d ago</span>
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="col-num">26</td>
+          <td class="col-source">google_scholar</td>
+          <td class="col-docs">33,710</td>
+          <td>
+            31 Dec 2024
+            
+            <span class="badge badge-old">447d ago</span>
+            
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <span>Updated 23 Mar 2026, 08:29 UTC</span>
+    <a href="https://github.com/hcss-utils/ruw-warehouse-overview" target="_blank">
+      hcss-utils/ruw-warehouse-overview
+    </a>
+  </footer>
+</body>
+</html>

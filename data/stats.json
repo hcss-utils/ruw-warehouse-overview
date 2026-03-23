@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-03-23T08:29:28.190585+00:00",
+  "sources": [
+    {
+      "database": "telegram_expert analysis",
+      "num_docs": 191753,
+      "last_updated": "2026-03-23"
+    },
+    {
+      "database": "telegram_War correspondent",
+      "num_docs": 173553,
+      "last_updated": "2026-03-23"
+    },
+    {
+      "database": "telegram_Experts",
+      "num_docs": 78733,
+      "last_updated": "2026-03-23"
+    },
+    {
+      "database": "vk",
+      "num_docs": 74660,
+      "last_updated": "2026-03-23"
+    },
+    {
+      "database": "bluesky",
+      "num_docs": 46522,
+      "last_updated": "2026-03-23"
+    },
+    {
+      "database": "telegram_aggregator",
+      "num_docs": 726250,
+      "last_updated": "2026-03-22"
+    },
+    {
+      "database": "telegram_Propagandist",
+      "num_docs": 305810,
+      "last_updated": "2026-03-22"
+    },
+    {
+      "database": "telegram_local",
+      "num_docs": 299055,
+      "last_updated": "2026-03-22"
+    },
+    {
+      "database": "telegram_Official",
+      "num_docs": 211973,
+      "last_updated": "2026-03-22"
+    },
+    {
+      "database": "telegram_Cossack",
+      "num_docs": 76014,
+      "last_updated": "2026-03-22"
+    },
+    {
+      "database": "telegram_military units",
+      "num_docs": 47314,
+      "last_updated": "2026-03-22"
+    },
+    {
+      "database": "isw",
+      "num_docs": 1569,
+      "last_updated": "2026-03-22"
+    },
+    {
+      "database": "kremlin",
+      "num_docs": 1596,
+      "last_updated": "2026-03-19"
+    },
+    {
+      "database": "russiamatters",
+      "num_docs": 3457,
+      "last_updated": "2026-03-18"
+    },
+    {
+      "database": "therussiaprogram",
+      "num_docs": 881,
+      "last_updated": "2026-03-18"
+    },
+    {
+      "database": "wotr",
+      "num_docs": 2072,
+      "last_updated": "2026-03-12"
+    },
+    {
+      "database": "state_duma",
+      "num_docs": 325,
+      "last_updated": "2026-03-12"
+    },
+    {
+      "database": "integrum",
+      "num_docs": 67304,
+      "last_updated": "2026-03-10"
+    },
+    {
+      "database": "realclearworld",
+      "num_docs": 5470,
+      "last_updated": "2026-03-04"
+    },
+    {
+      "database": "ponars",
+      "num_docs": 1592,
+      "last_updated": "2026-02-23"
+    },
+    {
+      "database": "youtube",
+      "num_docs": 1606,
+      "last_updated": "2026-02-22"
+    },
+    {
+      "database": "VM",
+      "num_docs": 105,
+      "last_updated": "2026-02-01"
+    },
+    {
+      "database": "federation_council",
+      "num_docs": 85,
+      "last_updated": "2025-11-24"
+    },
+    {
+      "database": "EVP-MIL",
+      "num_docs": 41487,
+      "last_updated": "2025-07-21"
+    },
+    {
+      "database": "EVP-VM",
+      "num_docs": 154,
+      "last_updated": "2022-12-31"
+    },
+    {
+      "database": "google_scholar",
+      "num_docs": 33710,
+      "last_updated": "2024-12-31"
+    }
+  ]
+}
