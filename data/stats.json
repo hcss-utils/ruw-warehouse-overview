@@ -1,23 +1,41 @@
 {
-  "generated_at": "2026-05-04T08:20:33.982906+00:00",
+  "generated_at": "2026-05-05T07:57:40.850289+00:00",
   "sources": [
     {
       "database": "telegram_Propagandist",
-      "num_docs": 314087,
-      "last_updated": "2026-05-04",
+      "num_docs": 314297,
+      "last_updated": "2026-05-05",
       "languages": "RU",
-      "num_chunks": 314091,
+      "num_chunks": 314301,
       "relevant_chunks": 20046,
       "relevant_pct": 6.4
     },
     {
       "database": "telegram_War correspondent",
-      "num_docs": 223685,
+      "num_docs": 224544,
+      "last_updated": "2026-05-05",
+      "languages": "RU/UK",
+      "num_chunks": 226986,
+      "relevant_chunks": 43409,
+      "relevant_pct": 19.1
+    },
+    {
+      "database": "telegram_aggregator",
+      "num_docs": 740877,
+      "last_updated": "2026-05-04",
+      "languages": "RU",
+      "num_chunks": 740877,
+      "relevant_chunks": 2498,
+      "relevant_pct": 0.3
+    },
+    {
+      "database": "telegram_Official",
+      "num_docs": 218629,
       "last_updated": "2026-05-04",
       "languages": "RU/UK",
-      "num_chunks": 226127,
-      "relevant_chunks": 43409,
-      "relevant_pct": 19.2
+      "num_chunks": 219241,
+      "relevant_chunks": 14945,
+      "relevant_pct": 6.8
     },
     {
       "database": "telegram_expert analysis",
@@ -29,31 +47,49 @@
       "relevant_pct": 0.3
     },
     {
-      "database": "telegram_aggregator",
-      "num_docs": 740499,
-      "last_updated": "2026-05-03",
-      "languages": "RU",
-      "num_chunks": 740499,
-      "relevant_chunks": 2498,
-      "relevant_pct": 0.3
-    },
-    {
-      "database": "telegram_Official",
-      "num_docs": 217591,
-      "last_updated": "2026-05-03",
-      "languages": "RU/UK",
-      "num_chunks": 218203,
-      "relevant_chunks": 14945,
-      "relevant_pct": 6.8
-    },
-    {
       "database": "vk",
-      "num_docs": 105872,
-      "last_updated": "2026-05-03",
+      "num_docs": 106196,
+      "last_updated": "2026-05-04",
       "languages": "RU",
-      "num_chunks": 105872,
+      "num_chunks": 106196,
       "relevant_chunks": 12819,
       "relevant_pct": 12.1
+    },
+    {
+      "database": "bluesky",
+      "num_docs": 50068,
+      "last_updated": "2026-05-04",
+      "languages": "CS/DE/EN/HE/NL/RU/SV/UK",
+      "num_chunks": 49254,
+      "relevant_chunks": 4254,
+      "relevant_pct": 8.6
+    },
+    {
+      "database": "wotr",
+      "num_docs": 2127,
+      "last_updated": "2026-05-04",
+      "languages": "EN",
+      "num_chunks": 5737,
+      "relevant_chunks": 926,
+      "relevant_pct": 16.1
+    },
+    {
+      "database": "isw",
+      "num_docs": 1619,
+      "last_updated": "2026-05-04",
+      "languages": "EN",
+      "num_chunks": 2965,
+      "relevant_chunks": 1860,
+      "relevant_pct": 62.7
+    },
+    {
+      "database": "telegram_Professors & Opinion Leaders",
+      "num_docs": 78,
+      "last_updated": "2026-05-04",
+      "languages": "RU",
+      "num_chunks": 78,
+      "relevant_chunks": 0,
+      "relevant_pct": 0.0
     },
     {
       "database": "telegram_Experts",
@@ -74,22 +110,31 @@
       "relevant_pct": 25.5
     },
     {
-      "database": "bluesky",
-      "num_docs": 49970,
-      "last_updated": "2026-05-03",
-      "languages": "CS/DE/EN/HE/NL/RU/SV/UK",
-      "num_chunks": 49156,
-      "relevant_chunks": 4254,
-      "relevant_pct": 8.7
+      "database": "realclearworld",
+      "num_docs": 5540,
+      "last_updated": "2026-05-02",
+      "languages": "AR/BCL/CA/CEB/CS/DE/EN/ES/FI/FR/HU/IT/NL/PL/PT/RU/SK/SV/VI/ZH",
+      "num_chunks": 9033,
+      "relevant_chunks": 346,
+      "relevant_pct": 3.8
     },
     {
-      "database": "isw",
-      "num_docs": 1618,
-      "last_updated": "2026-05-03",
+      "database": "russiamatters",
+      "num_docs": 3485,
+      "last_updated": "2026-05-01",
       "languages": "EN",
-      "num_chunks": 2964,
-      "relevant_chunks": 1860,
-      "relevant_pct": 62.8
+      "num_chunks": 30862,
+      "relevant_chunks": 1297,
+      "relevant_pct": 4.2
+    },
+    {
+      "database": "VM",
+      "num_docs": 159,
+      "last_updated": "2026-05-01",
+      "languages": "RU",
+      "num_chunks": 4321,
+      "relevant_chunks": 104,
+      "relevant_pct": 2.4
     },
     {
       "database": "kremlin",
@@ -99,33 +144,6 @@
       "num_chunks": 2465,
       "relevant_chunks": 718,
       "relevant_pct": 29.1
-    },
-    {
-      "database": "realclearworld",
-      "num_docs": 5526,
-      "last_updated": "2026-04-23",
-      "languages": "AR/BCL/CA/CEB/CS/DE/EN/ES/FI/FR/HU/IT/NL/PL/PT/RU/SK/SV/VI/ZH",
-      "num_chunks": 9018,
-      "relevant_chunks": 346,
-      "relevant_pct": 3.8
-    },
-    {
-      "database": "russiamatters",
-      "num_docs": 3479,
-      "last_updated": "2026-04-23",
-      "languages": "EN",
-      "num_chunks": 30766,
-      "relevant_chunks": 1297,
-      "relevant_pct": 4.2
-    },
-    {
-      "database": "wotr",
-      "num_docs": 2119,
-      "last_updated": "2026-04-23",
-      "languages": "EN",
-      "num_chunks": 5728,
-      "relevant_chunks": 926,
-      "relevant_pct": 16.2
     },
     {
       "database": "state_duma",
@@ -144,15 +162,6 @@
       "num_chunks": 76398,
       "relevant_chunks": 25253,
       "relevant_pct": 33.1
-    },
-    {
-      "database": "VM",
-      "num_docs": 158,
-      "last_updated": "2026-04-01",
-      "languages": "RU",
-      "num_chunks": 4243,
-      "relevant_chunks": 104,
-      "relevant_pct": 2.5
     },
     {
       "database": "telegram_local",
