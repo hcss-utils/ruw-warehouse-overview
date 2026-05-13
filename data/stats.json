@@ -1,41 +1,59 @@
 {
-  "generated_at": "2026-05-12T08:29:32.036710+00:00",
+  "generated_at": "2026-05-13T08:36:02.752386+00:00",
   "sources": [
     {
-      "database": "telegram_Propagandist",
-      "num_docs": 315386,
-      "last_updated": "2026-05-11",
+      "database": "vk",
+      "num_docs": 115663,
+      "last_updated": "2026-05-13",
       "languages": "RU",
-      "num_chunks": 315390,
-      "relevant_chunks": 20192,
+      "num_chunks": 115663,
+      "relevant_chunks": 13627,
+      "relevant_pct": 11.8
+    },
+    {
+      "database": "bluesky",
+      "num_docs": 50751,
+      "last_updated": "2026-05-13",
+      "languages": "CS/DE/EN/HE/NL/RU/SV/UK",
+      "num_chunks": 49918,
+      "relevant_chunks": 4696,
+      "relevant_pct": 9.4
+    },
+    {
+      "database": "telegram_Propagandist",
+      "num_docs": 315486,
+      "last_updated": "2026-05-12",
+      "languages": "RU",
+      "num_chunks": 315490,
+      "relevant_chunks": 20207,
       "relevant_pct": 6.4
     },
     {
       "database": "telegram_War correspondent",
-      "num_docs": 227971,
-      "last_updated": "2026-05-11",
+      "num_docs": 228134,
+      "last_updated": "2026-05-12",
       "languages": "RU/UK",
-      "num_chunks": 230413,
-      "relevant_chunks": 44194,
+      "num_chunks": 230576,
+      "relevant_chunks": 44227,
       "relevant_pct": 19.2
     },
     {
-      "database": "vk",
-      "num_docs": 115049,
-      "last_updated": "2026-05-11",
-      "languages": "RU",
-      "num_chunks": 115049,
-      "relevant_chunks": 13436,
-      "relevant_pct": 11.7
+      "database": "telegram_Official",
+      "num_docs": 219540,
+      "last_updated": "2026-05-12",
+      "languages": "RU/UK",
+      "num_chunks": 220152,
+      "relevant_chunks": 15073,
+      "relevant_pct": 6.8
     },
     {
-      "database": "bluesky",
-      "num_docs": 50642,
+      "database": "telegram_aggregator",
+      "num_docs": 743126,
       "last_updated": "2026-05-11",
-      "languages": "CS/DE/EN/HE/NL/RU/SV/UK",
-      "num_chunks": 49809,
-      "relevant_chunks": 4662,
-      "relevant_pct": 9.4
+      "languages": "RU",
+      "num_chunks": 743126,
+      "relevant_chunks": 2973,
+      "relevant_pct": 0.4
     },
     {
       "database": "isw",
@@ -47,40 +65,22 @@
       "relevant_pct": 63.8
     },
     {
+      "database": "telegram_Professors & Opinion Leaders",
+      "num_docs": 449,
+      "last_updated": "2026-05-11",
+      "languages": "RU",
+      "num_chunks": 449,
+      "relevant_chunks": 30,
+      "relevant_pct": 6.7
+    },
+    {
       "database": "rusi",
       "num_docs": 248,
       "last_updated": "2026-05-11",
       "languages": "EN",
       "num_chunks": 250,
-      "relevant_chunks": 22,
-      "relevant_pct": 8.8
-    },
-    {
-      "database": "telegram_aggregator",
-      "num_docs": 742897,
-      "last_updated": "2026-05-10",
-      "languages": "RU",
-      "num_chunks": 742897,
-      "relevant_chunks": 2930,
-      "relevant_pct": 0.4
-    },
-    {
-      "database": "telegram_Official",
-      "num_docs": 219507,
-      "last_updated": "2026-05-10",
-      "languages": "RU/UK",
-      "num_chunks": 220119,
-      "relevant_chunks": 15061,
-      "relevant_pct": 6.8
-    },
-    {
-      "database": "telegram_Professors & Opinion Leaders",
-      "num_docs": 422,
-      "last_updated": "2026-05-10",
-      "languages": "RU",
-      "num_chunks": 422,
-      "relevant_chunks": 27,
-      "relevant_pct": 6.4
+      "relevant_chunks": 213,
+      "relevant_pct": 85.2
     },
     {
       "database": "kremlin",
@@ -151,8 +151,8 @@
       "last_updated": "2026-05-01",
       "languages": "RU",
       "num_chunks": 4321,
-      "relevant_chunks": 119,
-      "relevant_pct": 2.8
+      "relevant_chunks": 1424,
+      "relevant_pct": 33.0
     },
     {
       "database": "state_duma",
@@ -214,8 +214,8 @@
       "last_updated": "2026-02-22",
       "languages": "EN/RU/UK",
       "num_chunks": 3949,
-      "relevant_chunks": 890,
-      "relevant_pct": 22.5
+      "relevant_chunks": 3400,
+      "relevant_pct": 86.1
     },
     {
       "database": "federation_council",
