@@ -1,76 +1,85 @@
 {
-  "generated_at": "2026-08-11T06:52:34.870531+00:00",
+  "generated_at": "2026-08-12T07:13:14.241134+00:00",
   "sources": [
     {
-      "database": "telegram_Official",
-      "num_docs": 233441,
-      "last_updated": "2026-08-10",
+      "database": "telegram_voenkor-milblogger",
+      "num_docs": 52980,
+      "last_updated": "2026-08-12",
       "languages": "RU/UK",
-      "num_chunks": 234053,
-      "relevant_chunks": 16034,
+      "num_chunks": 52979,
+      "relevant_chunks": 3504,
+      "relevant_pct": 6.6
+    },
+    {
+      "database": "telegram_Official",
+      "num_docs": 233465,
+      "last_updated": "2026-08-11",
+      "languages": "RU/UK",
+      "num_chunks": 234077,
+      "relevant_chunks": 16058,
       "relevant_pct": 6.9
     },
     {
       "database": "vk",
-      "num_docs": 197524,
-      "last_updated": "2026-08-10",
+      "num_docs": 198003,
+      "last_updated": "2026-08-11",
       "languages": "RU",
-      "num_chunks": 197525,
-      "relevant_chunks": 20997,
-      "relevant_pct": 10.6
+      "num_chunks": 198004,
+      "relevant_chunks": 21386,
+      "relevant_pct": 10.8
     },
     {
       "database": "telegram_aggregator",
-      "num_docs": 191162,
-      "last_updated": "2026-08-10",
+      "num_docs": 191191,
+      "last_updated": "2026-08-11",
       "languages": "RU/UK",
-      "num_chunks": 191162,
-      "relevant_chunks": 6625,
+      "num_chunks": 191191,
+      "relevant_chunks": 6646,
       "relevant_pct": 3.5
     },
     {
-      "database": "telegram_voenkor-milblogger",
-      "num_docs": 52929,
-      "last_updated": "2026-08-10",
-      "languages": "RU/UK",
-      "num_chunks": 52928,
-      "relevant_chunks": 3453,
-      "relevant_pct": 6.5
-    },
-    {
       "database": "telegram_expert-political",
-      "num_docs": 14473,
-      "last_updated": "2026-08-10",
+      "num_docs": 14487,
+      "last_updated": "2026-08-11",
       "languages": "RU",
-      "num_chunks": 14473,
-      "relevant_chunks": 245,
+      "num_chunks": 14487,
+      "relevant_chunks": 248,
       "relevant_pct": 1.7
     },
     {
       "database": "telegram_ukrainian-side",
-      "num_docs": 13803,
-      "last_updated": "2026-08-10",
+      "num_docs": 13845,
+      "last_updated": "2026-08-11",
       "languages": "RU/UK",
-      "num_chunks": 13803,
-      "relevant_chunks": 612,
-      "relevant_pct": 4.4
+      "num_chunks": 13845,
+      "relevant_chunks": 636,
+      "relevant_pct": 4.6
     },
     {
       "database": "telegram_Professors & Opinion Leaders",
-      "num_docs": 5481,
-      "last_updated": "2026-08-10",
+      "num_docs": 5485,
+      "last_updated": "2026-08-11",
       "languages": "RU",
-      "num_chunks": 5481,
-      "relevant_chunks": 239,
+      "num_chunks": 5485,
+      "relevant_chunks": 241,
       "relevant_pct": 4.4
     },
     {
-      "database": "armyinform",
-      "num_docs": 2727,
-      "last_updated": "2026-08-10",
+      "database": "defence_ua",
+      "num_docs": 4881,
+      "last_updated": "2026-08-11",
       "languages": "EN",
-      "num_chunks": 2728,
-      "relevant_chunks": 1751,
+      "num_chunks": 4898,
+      "relevant_chunks": 1098,
+      "relevant_pct": 22.4
+    },
+    {
+      "database": "armyinform",
+      "num_docs": 2729,
+      "last_updated": "2026-08-11",
+      "languages": "EN",
+      "num_chunks": 2730,
+      "relevant_chunks": 1752,
       "relevant_pct": 64.2
     },
     {
@@ -81,15 +90,6 @@
       "num_chunks": 78826,
       "relevant_chunks": 27419,
       "relevant_pct": 34.8
-    },
-    {
-      "database": "defence_ua",
-      "num_docs": 4880,
-      "last_updated": "2026-08-09",
-      "languages": "EN",
-      "num_chunks": 4897,
-      "relevant_chunks": 1097,
-      "relevant_pct": 22.4
     },
     {
       "database": "realclearworld",
