@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T06:29:28.035859+00:00",
+  "generated_at": "2026-08-20T06:31:07.081897+00:00",
   "sources": [
     {
       "database": "telegram_voenkor-milblogger",
@@ -7,7 +7,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 53257,
-      "relevant_chunks": 3918,
+      "relevant_chunks": 3924,
       "relevant_pct": 7.4
     },
     {
@@ -16,7 +16,7 @@
       "last_updated": "2026-08-16",
       "languages": "RU/UK",
       "num_chunks": 234184,
-      "relevant_chunks": 16162,
+      "relevant_chunks": 16163,
       "relevant_pct": 6.9
     },
     {
@@ -34,7 +34,7 @@
       "last_updated": "2026-08-16",
       "languages": "RU/UK",
       "num_chunks": 191351,
-      "relevant_chunks": 7050,
+      "relevant_chunks": 7059,
       "relevant_pct": 3.7
     },
     {
@@ -106,7 +106,7 @@
       "last_updated": "2026-08-07",
       "languages": "RU/UK",
       "num_chunks": 276070,
-      "relevant_chunks": 50155,
+      "relevant_chunks": 50170,
       "relevant_pct": 18.2
     },
     {
@@ -115,7 +115,7 @@
       "last_updated": "2026-08-07",
       "languages": "RU",
       "num_chunks": 13135,
-      "relevant_chunks": 782,
+      "relevant_chunks": 786,
       "relevant_pct": 6.0
     },
     {
@@ -142,7 +142,7 @@
       "last_updated": "2026-08-06",
       "languages": "RU",
       "num_chunks": 322200,
-      "relevant_chunks": 21267,
+      "relevant_chunks": 21271,
       "relevant_pct": 6.6
     },
     {
@@ -151,7 +151,7 @@
       "last_updated": "2026-08-06",
       "languages": "RU/UK",
       "num_chunks": 33340,
-      "relevant_chunks": 2074,
+      "relevant_chunks": 2077,
       "relevant_pct": 6.2
     },
     {
@@ -160,7 +160,7 @@
       "last_updated": "2026-08-06",
       "languages": "RU/UK",
       "num_chunks": 25651,
-      "relevant_chunks": 1110,
+      "relevant_chunks": 1111,
       "relevant_pct": 4.3
     },
     {
@@ -169,7 +169,7 @@
       "last_updated": "2026-08-06",
       "languages": "RU/UK",
       "num_chunks": 20494,
-      "relevant_chunks": 927,
+      "relevant_chunks": 928,
       "relevant_pct": 4.5
     },
     {
@@ -216,6 +216,15 @@
       "num_chunks": 271,
       "relevant_chunks": 227,
       "relevant_pct": 83.8
+    },
+    {
+      "database": "federation_council",
+      "num_docs": 102,
+      "last_updated": "2026-07-28",
+      "languages": "RU",
+      "num_chunks": 5322,
+      "relevant_chunks": 314,
+      "relevant_pct": 5.9
     },
     {
       "database": "state_duma",
@@ -414,15 +423,6 @@
       "num_chunks": 6725,
       "relevant_chunks": 7,
       "relevant_pct": 0.1
-    },
-    {
-      "database": "federation_council",
-      "num_docs": 85,
-      "last_updated": "2025-11-24",
-      "languages": "RU",
-      "num_chunks": 4449,
-      "relevant_chunks": 8,
-      "relevant_pct": 0.2
     },
     {
       "database": "EVP-MIL",
