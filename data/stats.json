@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T06:31:49.240851+00:00",
+  "generated_at": "2026-08-22T06:24:58.993569+00:00",
   "sources": [
     {
       "database": "telegram_voenkor-milblogger",
@@ -7,8 +7,8 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 53257,
-      "relevant_chunks": 3990,
-      "relevant_pct": 7.5
+      "relevant_chunks": 4025,
+      "relevant_pct": 7.6
     },
     {
       "database": "telegram_Official",
@@ -16,7 +16,7 @@
       "last_updated": "2026-08-16",
       "languages": "RU/UK",
       "num_chunks": 234184,
-      "relevant_chunks": 16181,
+      "relevant_chunks": 16197,
       "relevant_pct": 6.9
     },
     {
@@ -25,8 +25,8 @@
       "last_updated": "2026-08-16",
       "languages": "RU",
       "num_chunks": 200271,
-      "relevant_chunks": 22916,
-      "relevant_pct": 11.4
+      "relevant_chunks": 23136,
+      "relevant_pct": 11.6
     },
     {
       "database": "telegram_aggregator",
@@ -34,8 +34,8 @@
       "last_updated": "2026-08-16",
       "languages": "RU/UK",
       "num_chunks": 191351,
-      "relevant_chunks": 7127,
-      "relevant_pct": 3.7
+      "relevant_chunks": 7179,
+      "relevant_pct": 3.8
     },
     {
       "database": "telegram_expert-political",
@@ -43,7 +43,7 @@
       "last_updated": "2026-08-16",
       "languages": "RU",
       "num_chunks": 14541,
-      "relevant_chunks": 255,
+      "relevant_chunks": 256,
       "relevant_pct": 1.8
     },
     {
@@ -52,8 +52,8 @@
       "last_updated": "2026-08-16",
       "languages": "RU/UK",
       "num_chunks": 14056,
-      "relevant_chunks": 792,
-      "relevant_pct": 5.6
+      "relevant_chunks": 802,
+      "relevant_pct": 5.7
     },
     {
       "database": "telegram_Professors & Opinion Leaders",
@@ -61,7 +61,7 @@
       "last_updated": "2026-08-15",
       "languages": "RU",
       "num_chunks": 5499,
-      "relevant_chunks": 273,
+      "relevant_chunks": 274,
       "relevant_pct": 5.0
     },
     {
@@ -106,7 +106,7 @@
       "last_updated": "2026-08-07",
       "languages": "RU/UK",
       "num_chunks": 276070,
-      "relevant_chunks": 50280,
+      "relevant_chunks": 50347,
       "relevant_pct": 18.2
     },
     {
@@ -115,8 +115,8 @@
       "last_updated": "2026-08-07",
       "languages": "RU",
       "num_chunks": 13135,
-      "relevant_chunks": 798,
-      "relevant_pct": 6.1
+      "relevant_chunks": 810,
+      "relevant_pct": 6.2
     },
     {
       "database": "russiamatters",
@@ -142,7 +142,7 @@
       "last_updated": "2026-08-06",
       "languages": "RU",
       "num_chunks": 322200,
-      "relevant_chunks": 21287,
+      "relevant_chunks": 21296,
       "relevant_pct": 6.6
     },
     {
@@ -151,8 +151,8 @@
       "last_updated": "2026-08-06",
       "languages": "RU/UK",
       "num_chunks": 33340,
-      "relevant_chunks": 2105,
-      "relevant_pct": 6.3
+      "relevant_chunks": 2122,
+      "relevant_pct": 6.4
     },
     {
       "database": "telegram_government-official",
@@ -160,7 +160,7 @@
       "last_updated": "2026-08-06",
       "languages": "RU/UK",
       "num_chunks": 25651,
-      "relevant_chunks": 1125,
+      "relevant_chunks": 1137,
       "relevant_pct": 4.4
     },
     {
@@ -169,7 +169,7 @@
       "last_updated": "2026-08-06",
       "languages": "RU/UK",
       "num_chunks": 20494,
-      "relevant_chunks": 939,
+      "relevant_chunks": 945,
       "relevant_pct": 4.6
     },
     {
@@ -187,7 +187,7 @@
       "last_updated": "2026-08-06",
       "languages": "UK",
       "num_chunks": 5265,
-      "relevant_chunks": 169,
+      "relevant_chunks": 170,
       "relevant_pct": 3.2
     },
     {
@@ -196,7 +196,7 @@
       "last_updated": "2026-08-06",
       "languages": "RU/UK",
       "num_chunks": 3594,
-      "relevant_chunks": 42,
+      "relevant_chunks": 43,
       "relevant_pct": 1.2
     },
     {
@@ -205,8 +205,8 @@
       "last_updated": "2026-08-06",
       "languages": "RU",
       "num_chunks": 2623,
-      "relevant_chunks": 90,
-      "relevant_pct": 3.4
+      "relevant_chunks": 91,
+      "relevant_pct": 3.5
     },
     {
       "database": "rusi",
