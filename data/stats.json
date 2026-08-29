@@ -1,6 +1,15 @@
 {
-  "generated_at": "2026-08-28T17:57:28.541273+00:00",
+  "generated_at": "2026-08-29T12:02:18.965943+00:00",
   "sources": [
+    {
+      "database": "armyinform",
+      "num_docs": 2826,
+      "last_updated": "2026-08-28",
+      "languages": "EN",
+      "num_chunks": 2887,
+      "relevant_chunks": 1884,
+      "relevant_pct": 65.3
+    },
     {
       "database": "defence_ua",
       "num_docs": 4897,
@@ -11,22 +20,13 @@
       "relevant_pct": 22.7
     },
     {
-      "database": "armyinform",
-      "num_docs": 2824,
-      "last_updated": "2026-08-27",
-      "languages": "EN",
-      "num_chunks": 2885,
-      "relevant_chunks": 1882,
-      "relevant_pct": 65.2
-    },
-    {
       "database": "EVP-MIL",
-      "num_docs": 49928,
+      "num_docs": 50340,
       "last_updated": "2026-08-24",
       "languages": "RU",
-      "num_chunks": 66705,
-      "relevant_chunks": 13024,
-      "relevant_pct": 19.5
+      "num_chunks": 67142,
+      "relevant_chunks": 13541,
+      "relevant_pct": 20.2
     },
     {
       "database": "rusi",
@@ -43,8 +43,8 @@
       "last_updated": "2026-08-19",
       "languages": "EN/RU/UK",
       "num_chunks": 6380,
-      "relevant_chunks": 3818,
-      "relevant_pct": 59.8
+      "relevant_chunks": 3857,
+      "relevant_pct": 60.5
     },
     {
       "database": "telegram_Official",
@@ -52,7 +52,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 234226,
-      "relevant_chunks": 16234,
+      "relevant_chunks": 16240,
       "relevant_pct": 6.9
     },
     {
@@ -70,7 +70,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 191441,
-      "relevant_chunks": 7281,
+      "relevant_chunks": 7285,
       "relevant_pct": 3.8
     },
     {
@@ -79,7 +79,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 53365,
-      "relevant_chunks": 4123,
+      "relevant_chunks": 4131,
       "relevant_pct": 7.7
     },
     {
@@ -97,8 +97,8 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 14154,
-      "relevant_chunks": 837,
-      "relevant_pct": 5.9
+      "relevant_chunks": 846,
+      "relevant_pct": 6.0
     },
     {
       "database": "telegram_Professors & Opinion Leaders",
@@ -106,7 +106,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU",
       "num_chunks": 5515,
-      "relevant_chunks": 282,
+      "relevant_chunks": 283,
       "relevant_pct": 5.1
     },
     {
