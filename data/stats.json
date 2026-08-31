@@ -1,14 +1,23 @@
 {
-  "generated_at": "2026-08-30T10:58:40.931907+00:00",
+  "generated_at": "2026-08-31T12:17:23.116515+00:00",
   "sources": [
+    {
+      "database": "defence_ua",
+      "num_docs": 4900,
+      "last_updated": "2026-08-31",
+      "languages": "EN",
+      "num_chunks": 4932,
+      "relevant_chunks": 1123,
+      "relevant_pct": 22.8
+    },
     {
       "database": "EVP-MIL",
       "num_docs": 50637,
       "last_updated": "2026-08-28",
       "languages": "RU",
       "num_chunks": 67455,
-      "relevant_chunks": 14066,
-      "relevant_pct": 20.9
+      "relevant_chunks": 14411,
+      "relevant_pct": 21.4
     },
     {
       "database": "armyinform",
@@ -18,15 +27,6 @@
       "num_chunks": 2887,
       "relevant_chunks": 1884,
       "relevant_pct": 65.3
-    },
-    {
-      "database": "defence_ua",
-      "num_docs": 4897,
-      "last_updated": "2026-08-27",
-      "languages": "EN",
-      "num_chunks": 4929,
-      "relevant_chunks": 1121,
-      "relevant_pct": 22.7
     },
     {
       "database": "rusi",
@@ -52,7 +52,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 234226,
-      "relevant_chunks": 16244,
+      "relevant_chunks": 16252,
       "relevant_pct": 6.9
     },
     {
@@ -70,7 +70,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 191441,
-      "relevant_chunks": 7288,
+      "relevant_chunks": 7296,
       "relevant_pct": 3.8
     },
     {
@@ -79,7 +79,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 53365,
-      "relevant_chunks": 4141,
+      "relevant_chunks": 4155,
       "relevant_pct": 7.8
     },
     {
@@ -97,7 +97,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 14154,
-      "relevant_chunks": 857,
+      "relevant_chunks": 864,
       "relevant_pct": 6.1
     },
     {
@@ -106,8 +106,8 @@
       "last_updated": "2026-08-17",
       "languages": "RU",
       "num_chunks": 5515,
-      "relevant_chunks": 284,
-      "relevant_pct": 5.1
+      "relevant_chunks": 285,
+      "relevant_pct": 5.2
     },
     {
       "database": "integrum",
