@@ -1,14 +1,23 @@
 {
-  "generated_at": "2026-08-31T12:17:23.116515+00:00",
+  "generated_at": "2026-09-01T10:53:11.243041+00:00",
   "sources": [
     {
       "database": "defence_ua",
-      "num_docs": 4900,
+      "num_docs": 4901,
+      "last_updated": "2026-09-01",
+      "languages": "EN",
+      "num_chunks": 4933,
+      "relevant_chunks": 1124,
+      "relevant_pct": 22.8
+    },
+    {
+      "database": "armyinform",
+      "num_docs": 2838,
       "last_updated": "2026-08-31",
       "languages": "EN",
-      "num_chunks": 4932,
-      "relevant_chunks": 1123,
-      "relevant_pct": 22.8
+      "num_chunks": 2899,
+      "relevant_chunks": 1895,
+      "relevant_pct": 65.4
     },
     {
       "database": "EVP-MIL",
@@ -16,17 +25,8 @@
       "last_updated": "2026-08-28",
       "languages": "RU",
       "num_chunks": 67455,
-      "relevant_chunks": 14411,
-      "relevant_pct": 21.4
-    },
-    {
-      "database": "armyinform",
-      "num_docs": 2826,
-      "last_updated": "2026-08-28",
-      "languages": "EN",
-      "num_chunks": 2887,
-      "relevant_chunks": 1884,
-      "relevant_pct": 65.3
+      "relevant_chunks": 14862,
+      "relevant_pct": 22.0
     },
     {
       "database": "rusi",
@@ -43,8 +43,8 @@
       "last_updated": "2026-08-19",
       "languages": "EN/RU/UK",
       "num_chunks": 6380,
-      "relevant_chunks": 3891,
-      "relevant_pct": 61.0
+      "relevant_chunks": 3958,
+      "relevant_pct": 62.0
     },
     {
       "database": "telegram_Official",
@@ -52,7 +52,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 234226,
-      "relevant_chunks": 16252,
+      "relevant_chunks": 16254,
       "relevant_pct": 6.9
     },
     {
@@ -61,7 +61,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU",
       "num_chunks": 201337,
-      "relevant_chunks": 23158,
+      "relevant_chunks": 23161,
       "relevant_pct": 11.5
     },
     {
@@ -70,7 +70,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 191441,
-      "relevant_chunks": 7296,
+      "relevant_chunks": 7302,
       "relevant_pct": 3.8
     },
     {
@@ -79,7 +79,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 53365,
-      "relevant_chunks": 4155,
+      "relevant_chunks": 4165,
       "relevant_pct": 7.8
     },
     {
@@ -97,7 +97,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU/UK",
       "num_chunks": 14154,
-      "relevant_chunks": 864,
+      "relevant_chunks": 867,
       "relevant_pct": 6.1
     },
     {
@@ -106,7 +106,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU",
       "num_chunks": 5515,
-      "relevant_chunks": 285,
+      "relevant_chunks": 287,
       "relevant_pct": 5.2
     },
     {
