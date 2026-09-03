@@ -1,6 +1,15 @@
 {
-  "generated_at": "2026-09-02T10:17:42.388619+00:00",
+  "generated_at": "2026-09-03T10:27:42.260324+00:00",
   "sources": [
+    {
+      "database": "armyinform",
+      "num_docs": 2855,
+      "last_updated": "2026-09-02",
+      "languages": "EN",
+      "num_chunks": 2916,
+      "relevant_chunks": 1912,
+      "relevant_pct": 65.6
+    },
     {
       "database": "defence_ua",
       "num_docs": 4902,
@@ -11,13 +20,13 @@
       "relevant_pct": 22.8
     },
     {
-      "database": "armyinform",
-      "num_docs": 2847,
+      "database": "isw",
+      "num_docs": 1762,
       "last_updated": "2026-09-01",
       "languages": "EN",
-      "num_chunks": 2908,
-      "relevant_chunks": 1904,
-      "relevant_pct": 65.5
+      "num_chunks": 3181,
+      "relevant_chunks": 2099,
+      "relevant_pct": 66.0
     },
     {
       "database": "VM",
@@ -38,22 +47,13 @@
       "relevant_pct": 30.5
     },
     {
-      "database": "isw",
-      "num_docs": 1761,
-      "last_updated": "2026-08-31",
-      "languages": "EN",
-      "num_chunks": 3179,
-      "relevant_chunks": 2097,
-      "relevant_pct": 66.0
-    },
-    {
       "database": "EVP-MIL",
       "num_docs": 50637,
       "last_updated": "2026-08-28",
       "languages": "RU",
       "num_chunks": 67455,
-      "relevant_chunks": 15182,
-      "relevant_pct": 22.5
+      "relevant_chunks": 15598,
+      "relevant_pct": 23.1
     },
     {
       "database": "rusi",
@@ -70,8 +70,8 @@
       "last_updated": "2026-08-19",
       "languages": "EN/RU/UK",
       "num_chunks": 6380,
-      "relevant_chunks": 3982,
-      "relevant_pct": 62.4
+      "relevant_chunks": 4063,
+      "relevant_pct": 63.7
     },
     {
       "database": "telegram_Official",
@@ -88,7 +88,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU",
       "num_chunks": 201337,
-      "relevant_chunks": 23191,
+      "relevant_chunks": 23225,
       "relevant_pct": 11.5
     },
     {
