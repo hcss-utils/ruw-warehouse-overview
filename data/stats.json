@@ -1,23 +1,32 @@
 {
-  "generated_at": "2026-09-07T11:10:28.864524+00:00",
+  "generated_at": "2026-09-08T10:21:00.968064+00:00",
   "sources": [
     {
       "database": "defence_ua",
-      "num_docs": 4905,
-      "last_updated": "2026-09-06",
+      "num_docs": 4906,
+      "last_updated": "2026-09-07",
       "languages": "EN",
-      "num_chunks": 4937,
+      "num_chunks": 4938,
       "relevant_chunks": 1128,
       "relevant_pct": 22.8
     },
     {
       "database": "isw",
-      "num_docs": 1768,
-      "last_updated": "2026-09-06",
+      "num_docs": 1769,
+      "last_updated": "2026-09-07",
       "languages": "EN",
-      "num_chunks": 3190,
-      "relevant_chunks": 2108,
+      "num_chunks": 3191,
+      "relevant_chunks": 2109,
       "relevant_pct": 66.1
+    },
+    {
+      "database": "rusi",
+      "num_docs": 272,
+      "last_updated": "2026-09-07",
+      "languages": "EN",
+      "num_chunks": 275,
+      "relevant_chunks": 231,
+      "relevant_pct": 84.0
     },
     {
       "database": "kremlin",
@@ -38,15 +47,6 @@
       "relevant_pct": 65.7
     },
     {
-      "database": "rusi",
-      "num_docs": 271,
-      "last_updated": "2026-09-04",
-      "languages": "EN",
-      "num_chunks": 274,
-      "relevant_chunks": 230,
-      "relevant_pct": 83.9
-    },
-    {
       "database": "VM",
       "num_docs": 164,
       "last_updated": "2026-09-01",
@@ -61,8 +61,8 @@
       "last_updated": "2026-08-28",
       "languages": "RU",
       "num_chunks": 67455,
-      "relevant_chunks": 17382,
-      "relevant_pct": 25.8
+      "relevant_chunks": 17684,
+      "relevant_pct": 26.2
     },
     {
       "database": "youtube",
@@ -70,8 +70,8 @@
       "last_updated": "2026-08-19",
       "languages": "EN/RU/UK",
       "num_chunks": 6380,
-      "relevant_chunks": 4315,
-      "relevant_pct": 67.6
+      "relevant_chunks": 4362,
+      "relevant_pct": 68.4
     },
     {
       "database": "telegram_Official",
@@ -88,7 +88,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU",
       "num_chunks": 201337,
-      "relevant_chunks": 23353,
+      "relevant_chunks": 23383,
       "relevant_pct": 11.6
     },
     {
