@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-09-11T10:19:44.722446+00:00",
+  "generated_at": "2026-09-12T09:51:37.182506+00:00",
   "sources": [
+    {
+      "database": "armyinform",
+      "num_docs": 2909,
+      "last_updated": "2026-09-11",
+      "languages": "EN",
+      "num_chunks": 2970,
+      "relevant_chunks": 1963,
+      "relevant_pct": 66.1
+    },
+    {
+      "database": "kremlin",
+      "num_docs": 1808,
+      "last_updated": "2026-09-11",
+      "languages": "RU",
+      "num_chunks": 2692,
+      "relevant_chunks": 824,
+      "relevant_pct": 30.6
+    },
     {
       "database": "defence_ua",
       "num_docs": 4909,
@@ -9,15 +27,6 @@
       "num_chunks": 4941,
       "relevant_chunks": 1130,
       "relevant_pct": 22.9
-    },
-    {
-      "database": "armyinform",
-      "num_docs": 2894,
-      "last_updated": "2026-09-10",
-      "languages": "EN",
-      "num_chunks": 2955,
-      "relevant_chunks": 1949,
-      "relevant_pct": 66.0
     },
     {
       "database": "isw",
@@ -38,15 +47,6 @@
       "relevant_pct": 84.1
     },
     {
-      "database": "kremlin",
-      "num_docs": 1805,
-      "last_updated": "2026-09-09",
-      "languages": "RU",
-      "num_chunks": 2689,
-      "relevant_chunks": 822,
-      "relevant_pct": 30.6
-    },
-    {
       "database": "VM",
       "num_docs": 164,
       "last_updated": "2026-09-01",
@@ -61,8 +61,8 @@
       "last_updated": "2026-08-28",
       "languages": "RU",
       "num_chunks": 67455,
-      "relevant_chunks": 19150,
-      "relevant_pct": 28.4
+      "relevant_chunks": 19513,
+      "relevant_pct": 28.9
     },
     {
       "database": "youtube",
@@ -88,7 +88,7 @@
       "last_updated": "2026-08-17",
       "languages": "RU",
       "num_chunks": 201337,
-      "relevant_chunks": 23470,
+      "relevant_chunks": 23504,
       "relevant_pct": 11.7
     },
     {
