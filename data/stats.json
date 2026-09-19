@@ -1,32 +1,50 @@
 {
-  "generated_at": "2026-09-18T10:22:14.323912+00:00",
+  "generated_at": "2026-09-19T10:02:18.729916+00:00",
   "sources": [
     {
+      "database": "bluesky",
+      "num_docs": 61623,
+      "last_updated": "2026-09-19",
+      "languages": "CS/DE/EN/FR/HE/NL/PL/RU/SV/UK",
+      "num_chunks": 60491,
+      "relevant_chunks": 6187,
+      "relevant_pct": 10.2
+    },
+    {
+      "database": "defence_ua",
+      "num_docs": 4915,
+      "last_updated": "2026-09-19",
+      "languages": "EN",
+      "num_chunks": 4947,
+      "relevant_chunks": 1135,
+      "relevant_pct": 22.9
+    },
+    {
       "database": "telegram_Official",
-      "num_docs": 234353,
-      "last_updated": "2026-09-17",
+      "num_docs": 234379,
+      "last_updated": "2026-09-18",
       "languages": "RU/UK",
-      "num_chunks": 234987,
-      "relevant_chunks": 16337,
+      "num_chunks": 235013,
+      "relevant_chunks": 16359,
       "relevant_pct": 7.0
     },
     {
       "database": "vk",
-      "num_docs": 218154,
-      "last_updated": "2026-09-17",
+      "num_docs": 218448,
+      "last_updated": "2026-09-18",
       "languages": "RU",
-      "num_chunks": 218791,
-      "relevant_chunks": 23602,
+      "num_chunks": 219085,
+      "relevant_chunks": 23617,
       "relevant_pct": 10.8
     },
     {
-      "database": "bluesky",
-      "num_docs": 61521,
-      "last_updated": "2026-09-17",
-      "languages": "CS/DE/EN/FR/HE/NL/PL/RU/SV/UK",
-      "num_chunks": 60389,
-      "relevant_chunks": 6047,
-      "relevant_pct": 10.0
+      "database": "telegram_Professors & Opinion Leaders",
+      "num_docs": 5686,
+      "last_updated": "2026-09-18",
+      "languages": "RU",
+      "num_chunks": 5696,
+      "relevant_chunks": 304,
+      "relevant_pct": 5.3
     },
     {
       "database": "militarnyi",
@@ -36,15 +54,6 @@
       "num_chunks": 31584,
       "relevant_chunks": 2536,
       "relevant_pct": 8.0
-    },
-    {
-      "database": "telegram_Professors & Opinion Leaders",
-      "num_docs": 5680,
-      "last_updated": "2026-09-17",
-      "languages": "RU",
-      "num_chunks": 5690,
-      "relevant_chunks": 302,
-      "relevant_pct": 5.3
     },
     {
       "database": "kremlin",
@@ -57,11 +66,11 @@
     },
     {
       "database": "isw",
-      "num_docs": 1782,
+      "num_docs": 1783,
       "last_updated": "2026-09-17",
       "languages": "EN",
-      "num_chunks": 3213,
-      "relevant_chunks": 2131,
+      "num_chunks": 3215,
+      "relevant_chunks": 2133,
       "relevant_pct": 66.3
     },
     {
@@ -70,8 +79,8 @@
       "last_updated": "2026-09-16",
       "languages": "RU",
       "num_chunks": 79793,
-      "relevant_chunks": 27916,
-      "relevant_pct": 35.0
+      "relevant_chunks": 28121,
+      "relevant_pct": 35.2
     },
     {
       "database": "russiamatters",
@@ -79,7 +88,7 @@
       "last_updated": "2026-09-16",
       "languages": "EN",
       "num_chunks": 32028,
-      "relevant_chunks": 1578,
+      "relevant_chunks": 1580,
       "relevant_pct": 4.9
     },
     {
@@ -97,8 +106,8 @@
       "last_updated": "2026-09-16",
       "languages": "EN",
       "num_chunks": 5870,
-      "relevant_chunks": 1018,
-      "relevant_pct": 17.3
+      "relevant_chunks": 1022,
+      "relevant_pct": 17.4
     },
     {
       "database": "rusi",
@@ -108,15 +117,6 @@
       "num_chunks": 279,
       "relevant_chunks": 233,
       "relevant_pct": 83.5
-    },
-    {
-      "database": "defence_ua",
-      "num_docs": 4914,
-      "last_updated": "2026-09-15",
-      "languages": "EN",
-      "num_chunks": 4946,
-      "relevant_chunks": 1134,
-      "relevant_pct": 22.9
     },
     {
       "database": "streitkraefte_strategien",
@@ -160,8 +160,8 @@
       "last_updated": "2026-09-09",
       "languages": "EN",
       "num_chunks": 946,
-      "relevant_chunks": 502,
-      "relevant_pct": 53.1
+      "relevant_chunks": 504,
+      "relevant_pct": 53.3
     },
     {
       "database": "EVP-RUW",
@@ -169,8 +169,8 @@
       "last_updated": "2026-09-02",
       "languages": "RU",
       "num_chunks": 6979,
-      "relevant_chunks": 301,
-      "relevant_pct": 4.3
+      "relevant_chunks": 383,
+      "relevant_pct": 5.5
     },
     {
       "database": "VM",
