@@ -1,32 +1,59 @@
 {
-  "generated_at": "2026-09-24T10:51:49.106784+00:00",
+  "generated_at": "2026-09-25T10:55:22.269874+00:00",
   "sources": [
     {
       "database": "bluesky",
-      "num_docs": 62087,
-      "last_updated": "2026-09-24",
+      "num_docs": 62178,
+      "last_updated": "2026-09-25",
       "languages": "CS/DE/EN/FR/HE/NL/PL/RU/SV/UK",
-      "num_chunks": 60935,
-      "relevant_chunks": 7230,
-      "relevant_pct": 11.9
+      "num_chunks": 61020,
+      "relevant_chunks": 7411,
+      "relevant_pct": 12.1
     },
     {
       "database": "telegram_Official",
-      "num_docs": 234489,
-      "last_updated": "2026-09-23",
+      "num_docs": 234512,
+      "last_updated": "2026-09-24",
       "languages": "RU/UK",
-      "num_chunks": 235123,
-      "relevant_chunks": 16449,
+      "num_chunks": 235146,
+      "relevant_chunks": 16468,
       "relevant_pct": 7.0
     },
     {
       "database": "vk",
-      "num_docs": 220329,
-      "last_updated": "2026-09-23",
+      "num_docs": 221149,
+      "last_updated": "2026-09-24",
       "languages": "RU",
-      "num_chunks": 220966,
-      "relevant_chunks": 23711,
+      "num_chunks": 221786,
+      "relevant_chunks": 23738,
       "relevant_pct": 10.7
+    },
+    {
+      "database": "telegram_Professors & Opinion Leaders",
+      "num_docs": 5719,
+      "last_updated": "2026-09-24",
+      "languages": "RU",
+      "num_chunks": 5729,
+      "relevant_chunks": 317,
+      "relevant_pct": 5.5
+    },
+    {
+      "database": "armyinform",
+      "num_docs": 2945,
+      "last_updated": "2026-09-24",
+      "languages": "EN",
+      "num_chunks": 3006,
+      "relevant_chunks": 1994,
+      "relevant_pct": 66.3
+    },
+    {
+      "database": "isw",
+      "num_docs": 1793,
+      "last_updated": "2026-09-24",
+      "languages": "EN",
+      "num_chunks": 3233,
+      "relevant_chunks": 2151,
+      "relevant_pct": 66.5
     },
     {
       "database": "militarnyi",
@@ -38,31 +65,13 @@
       "relevant_pct": 8.0
     },
     {
-      "database": "telegram_Professors & Opinion Leaders",
-      "num_docs": 5711,
+      "database": "kremlin",
+      "num_docs": 1825,
       "last_updated": "2026-09-23",
       "languages": "RU",
-      "num_chunks": 5721,
-      "relevant_chunks": 314,
-      "relevant_pct": 5.5
-    },
-    {
-      "database": "armyinform",
-      "num_docs": 2940,
-      "last_updated": "2026-09-23",
-      "languages": "EN",
-      "num_chunks": 3001,
-      "relevant_chunks": 1989,
-      "relevant_pct": 66.3
-    },
-    {
-      "database": "isw",
-      "num_docs": 1790,
-      "last_updated": "2026-09-23",
-      "languages": "EN",
-      "num_chunks": 3228,
-      "relevant_chunks": 2146,
-      "relevant_pct": 66.5
+      "num_chunks": 2712,
+      "relevant_chunks": 829,
+      "relevant_pct": 30.6
     },
     {
       "database": "rusi",
@@ -92,22 +101,13 @@
       "relevant_pct": 23.0
     },
     {
-      "database": "kremlin",
-      "num_docs": 1824,
-      "last_updated": "2026-09-22",
-      "languages": "RU",
-      "num_chunks": 2709,
-      "relevant_chunks": 828,
-      "relevant_pct": 30.6
-    },
-    {
       "database": "streitkraefte_strategien",
       "num_docs": 538,
       "last_updated": "2026-09-22",
       "languages": "DE",
       "num_chunks": 1312,
-      "relevant_chunks": 41,
-      "relevant_pct": 3.1
+      "relevant_chunks": 49,
+      "relevant_pct": 3.7
     },
     {
       "database": "therussiaprogram",
@@ -115,8 +115,8 @@
       "last_updated": "2026-09-18",
       "languages": "EN",
       "num_chunks": 948,
-      "relevant_chunks": 511,
-      "relevant_pct": 53.9
+      "relevant_chunks": 512,
+      "relevant_pct": 54.0
     },
     {
       "database": "integrum",
@@ -169,8 +169,8 @@
       "last_updated": "2026-09-02",
       "languages": "RU",
       "num_chunks": 6979,
-      "relevant_chunks": 1095,
-      "relevant_pct": 15.7
+      "relevant_chunks": 1268,
+      "relevant_pct": 18.2
     },
     {
       "database": "VM",
@@ -480,10 +480,10 @@
     },
     {
       "database": "was_tun_herr_general",
-      "num_docs": 21,
+      "num_docs": 50,
       "last_updated": "2022-09-13",
       "languages": "DE",
-      "num_chunks": 47,
+      "num_chunks": 125,
       "relevant_chunks": 0,
       "relevant_pct": 0.0
     },
@@ -498,10 +498,10 @@
     },
     {
       "database": "sicherheitshalber",
-      "num_docs": 15,
-      "last_updated": "2019-05-18",
+      "num_docs": 34,
+      "last_updated": "2020-05-07",
       "languages": "DE",
-      "num_chunks": 61,
+      "num_chunks": 144,
       "relevant_chunks": 0,
       "relevant_pct": 0.0
     },
