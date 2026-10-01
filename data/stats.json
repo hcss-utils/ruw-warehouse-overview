@@ -1,86 +1,113 @@
 {
-  "generated_at": "2026-09-30T11:41:04.617933+00:00",
+  "generated_at": "2026-10-01T12:11:05.456127+00:00",
   "sources": [
     {
+      "database": "bluesky",
+      "num_docs": 62615,
+      "last_updated": "2026-10-01",
+      "languages": "CS/DE/EN/FR/HE/NL/PL/RU/SV/UK",
+      "num_chunks": 61448,
+      "relevant_chunks": 7672,
+      "relevant_pct": 12.5
+    },
+    {
+      "database": "telegram_Official",
+      "num_docs": 234671,
+      "last_updated": "2026-09-30",
+      "languages": "RU/UK",
+      "num_chunks": 235305,
+      "relevant_chunks": 16479,
+      "relevant_pct": 7.0
+    },
+    {
       "database": "vk",
-      "num_docs": 223254,
+      "num_docs": 223582,
       "last_updated": "2026-09-30",
       "languages": "RU",
-      "num_chunks": 223891,
+      "num_chunks": 224219,
       "relevant_chunks": 23738,
       "relevant_pct": 10.6
     },
     {
-      "database": "telegram_Official",
-      "num_docs": 234643,
-      "last_updated": "2026-09-29",
-      "languages": "RU/UK",
-      "num_chunks": 235277,
-      "relevant_chunks": 16468,
-      "relevant_pct": 7.0
-    },
-    {
       "database": "telegram_aggregator",
-      "num_docs": 192679,
-      "last_updated": "2026-09-29",
+      "num_docs": 192706,
+      "last_updated": "2026-09-30",
       "languages": "RU/UK",
-      "num_chunks": 192734,
-      "relevant_chunks": 7302,
+      "num_chunks": 192761,
+      "relevant_chunks": 7308,
       "relevant_pct": 3.8
     },
     {
-      "database": "bluesky",
-      "num_docs": 62552,
-      "last_updated": "2026-09-29",
-      "languages": "CS/DE/EN/FR/HE/NL/PL/RU/SV/UK",
-      "num_chunks": 61387,
-      "relevant_chunks": 7411,
-      "relevant_pct": 12.1
-    },
-    {
       "database": "telegram_voenkor-milblogger",
-      "num_docs": 55987,
-      "last_updated": "2026-09-29",
+      "num_docs": 56058,
+      "last_updated": "2026-09-30",
       "languages": "RU/UK",
-      "num_chunks": 56051,
-      "relevant_chunks": 4166,
-      "relevant_pct": 7.4
+      "num_chunks": 56122,
+      "relevant_chunks": 4184,
+      "relevant_pct": 7.5
     },
     {
       "database": "telegram_Professors & Opinion Leaders",
-      "num_docs": 5744,
-      "last_updated": "2026-09-29",
+      "num_docs": 5750,
+      "last_updated": "2026-09-30",
       "languages": "RU",
-      "num_chunks": 5754,
-      "relevant_chunks": 317,
-      "relevant_pct": 5.5
+      "num_chunks": 5760,
+      "relevant_chunks": 321,
+      "relevant_pct": 5.6
     },
     {
       "database": "defence_ua",
-      "num_docs": 4924,
-      "last_updated": "2026-09-29",
+      "num_docs": 4926,
+      "last_updated": "2026-09-30",
       "languages": "EN",
-      "num_chunks": 4956,
-      "relevant_chunks": 1141,
-      "relevant_pct": 23.0
+      "num_chunks": 4958,
+      "relevant_chunks": 1146,
+      "relevant_pct": 23.1
     },
     {
       "database": "armyinform",
-      "num_docs": 2956,
-      "last_updated": "2026-09-29",
+      "num_docs": 2963,
+      "last_updated": "2026-09-30",
       "languages": "EN",
-      "num_chunks": 3017,
-      "relevant_chunks": 1994,
-      "relevant_pct": 66.1
+      "num_chunks": 3024,
+      "relevant_chunks": 2010,
+      "relevant_pct": 66.5
+    },
+    {
+      "database": "isw",
+      "num_docs": 1800,
+      "last_updated": "2026-09-30",
+      "languages": "EN",
+      "num_chunks": 3246,
+      "relevant_chunks": 2164,
+      "relevant_pct": 66.7
     },
     {
       "database": "rusi",
-      "num_docs": 280,
-      "last_updated": "2026-09-29",
+      "num_docs": 281,
+      "last_updated": "2026-09-30",
       "languages": "EN",
-      "num_chunks": 283,
-      "relevant_chunks": 234,
-      "relevant_pct": 82.7
+      "num_chunks": 284,
+      "relevant_chunks": 236,
+      "relevant_pct": 83.1
+    },
+    {
+      "database": "kremlin",
+      "num_docs": 1829,
+      "last_updated": "2026-09-29",
+      "languages": "RU",
+      "num_chunks": 2717,
+      "relevant_chunks": 831,
+      "relevant_pct": 30.6
+    },
+    {
+      "database": "streitkraefte_strategien",
+      "num_docs": 540,
+      "last_updated": "2026-09-29",
+      "languages": "DE",
+      "num_chunks": 1318,
+      "relevant_chunks": 56,
+      "relevant_pct": 4.2
     },
     {
       "database": "brave1",
@@ -88,17 +115,8 @@
       "last_updated": "2026-09-29",
       "languages": "UK",
       "num_chunks": 24,
-      "relevant_chunks": 5,
-      "relevant_pct": 20.8
-    },
-    {
-      "database": "kremlin",
-      "num_docs": 1828,
-      "last_updated": "2026-09-28",
-      "languages": "RU",
-      "num_chunks": 2716,
-      "relevant_chunks": 829,
-      "relevant_pct": 30.5
+      "relevant_chunks": 7,
+      "relevant_pct": 29.2
     },
     {
       "database": "therussiaprogram",
@@ -106,26 +124,8 @@
       "last_updated": "2026-09-28",
       "languages": "EN",
       "num_chunks": 950,
-      "relevant_chunks": 512,
-      "relevant_pct": 53.9
-    },
-    {
-      "database": "isw",
-      "num_docs": 1797,
-      "last_updated": "2026-09-27",
-      "languages": "EN",
-      "num_chunks": 3241,
-      "relevant_chunks": 2151,
-      "relevant_pct": 66.4
-    },
-    {
-      "database": "streitkraefte_strategien",
-      "num_docs": 539,
-      "last_updated": "2026-09-25",
-      "languages": "DE",
-      "num_chunks": 1315,
-      "relevant_chunks": 49,
-      "relevant_pct": 3.7
+      "relevant_chunks": 513,
+      "relevant_pct": 54.0
     },
     {
       "database": "militarnyi",
@@ -164,13 +164,22 @@
       "relevant_pct": 17.5
     },
     {
+      "database": "sicherheitshalber",
+      "num_docs": 129,
+      "last_updated": "2026-09-15",
+      "languages": "DE",
+      "num_chunks": 610,
+      "relevant_chunks": 12,
+      "relevant_pct": 2.0
+    },
+    {
       "database": "EVP-RUW",
       "num_docs": 6530,
       "last_updated": "2026-09-02",
       "languages": "RU",
       "num_chunks": 6979,
-      "relevant_chunks": 1268,
-      "relevant_pct": 18.2
+      "relevant_chunks": 1337,
+      "relevant_pct": 19.2
     },
     {
       "database": "VM",
@@ -363,12 +372,12 @@
     },
     {
       "database": "machtfragen",
-      "num_docs": 1,
+      "num_docs": 45,
       "last_updated": "2026-07-23",
       "languages": "DE",
-      "num_chunks": 1,
-      "relevant_chunks": 1,
-      "relevant_pct": 100.0
+      "num_chunks": 45,
+      "relevant_chunks": 3,
+      "relevant_pct": 6.7
     },
     {
       "database": "telegram_public-figure",
@@ -470,20 +479,11 @@
       "relevant_pct": 0.1
     },
     {
-      "database": "sicherheitshalber",
-      "num_docs": 119,
-      "last_updated": "2025-12-20",
-      "languages": "DE",
-      "num_chunks": 553,
-      "relevant_chunks": 0,
-      "relevant_pct": 0.0
-    },
-    {
       "database": "was_tun_herr_general",
-      "num_docs": 170,
-      "last_updated": "2023-11-29",
+      "num_docs": 191,
+      "last_updated": "2024-02-21",
       "languages": "DE",
-      "num_chunks": 504,
+      "num_chunks": 573,
       "relevant_chunks": 0,
       "relevant_pct": 0.0
     },
