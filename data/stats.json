@@ -1,86 +1,86 @@
 {
-  "generated_at": "2026-10-05T13:11:26.328241+00:00",
+  "generated_at": "2026-10-06T12:33:14.502553+00:00",
   "sources": [
     {
-      "database": "telegram_voenkor-milblogger",
-      "num_docs": 56322,
-      "last_updated": "2026-10-05",
-      "languages": "RU/UK",
-      "num_chunks": 56386,
-      "relevant_chunks": 4269,
-      "relevant_pct": 7.6
+      "database": "bluesky",
+      "num_docs": 63000,
+      "last_updated": "2026-10-06",
+      "languages": "CS/DE/EN/FR/HE/NL/PL/RU/SV/UK",
+      "num_chunks": 61816,
+      "relevant_chunks": 8075,
+      "relevant_pct": 13.1
     },
     {
       "database": "telegram_Official",
-      "num_docs": 234786,
-      "last_updated": "2026-10-04",
+      "num_docs": 234809,
+      "last_updated": "2026-10-05",
       "languages": "RU/UK",
-      "num_chunks": 235420,
-      "relevant_chunks": 16533,
+      "num_chunks": 235443,
+      "relevant_chunks": 16541,
       "relevant_pct": 7.0
     },
     {
       "database": "vk",
-      "num_docs": 225695,
-      "last_updated": "2026-10-04",
+      "num_docs": 226129,
+      "last_updated": "2026-10-05",
       "languages": "RU",
-      "num_chunks": 226332,
+      "num_chunks": 226766,
       "relevant_chunks": 23739,
       "relevant_pct": 10.5
     },
     {
       "database": "telegram_aggregator",
-      "num_docs": 192816,
-      "last_updated": "2026-10-04",
+      "num_docs": 192843,
+      "last_updated": "2026-10-05",
       "languages": "RU/UK",
-      "num_chunks": 192871,
-      "relevant_chunks": 7329,
+      "num_chunks": 192898,
+      "relevant_chunks": 7334,
       "relevant_pct": 3.8
     },
     {
-      "database": "bluesky",
-      "num_docs": 62893,
-      "last_updated": "2026-10-04",
-      "languages": "CS/DE/EN/FR/HE/NL/PL/RU/SV/UK",
-      "num_chunks": 61712,
-      "relevant_chunks": 8032,
-      "relevant_pct": 13.0
+      "database": "telegram_voenkor-milblogger",
+      "num_docs": 56388,
+      "last_updated": "2026-10-05",
+      "languages": "RU/UK",
+      "num_chunks": 56452,
+      "relevant_chunks": 4284,
+      "relevant_pct": 7.6
+    },
+    {
+      "database": "telegram_Professors & Opinion Leaders",
+      "num_docs": 5774,
+      "last_updated": "2026-10-05",
+      "languages": "RU",
+      "num_chunks": 5784,
+      "relevant_chunks": 328,
+      "relevant_pct": 5.7
     },
     {
       "database": "defence_ua",
-      "num_docs": 4930,
-      "last_updated": "2026-10-04",
+      "num_docs": 4931,
+      "last_updated": "2026-10-05",
       "languages": "EN",
-      "num_chunks": 4962,
-      "relevant_chunks": 1148,
-      "relevant_pct": 23.1
+      "num_chunks": 4963,
+      "relevant_chunks": 1149,
+      "relevant_pct": 23.2
     },
     {
       "database": "armyinform",
-      "num_docs": 2971,
-      "last_updated": "2026-10-04",
+      "num_docs": 2973,
+      "last_updated": "2026-10-05",
       "languages": "EN",
-      "num_chunks": 3032,
-      "relevant_chunks": 2018,
+      "num_chunks": 3034,
+      "relevant_chunks": 2020,
       "relevant_pct": 66.6
     },
     {
       "database": "isw",
-      "num_docs": 1806,
-      "last_updated": "2026-10-04",
+      "num_docs": 1808,
+      "last_updated": "2026-10-05",
       "languages": "EN",
-      "num_chunks": 3255,
-      "relevant_chunks": 2173,
+      "num_chunks": 3257,
+      "relevant_chunks": 2175,
       "relevant_pct": 66.8
-    },
-    {
-      "database": "telegram_Professors & Opinion Leaders",
-      "num_docs": 5767,
-      "last_updated": "2026-10-03",
-      "languages": "RU",
-      "num_chunks": 5777,
-      "relevant_chunks": 326,
-      "relevant_pct": 5.6
     },
     {
       "database": "kremlin",
@@ -97,8 +97,8 @@
       "last_updated": "2026-10-02",
       "languages": "DE",
       "num_chunks": 1321,
-      "relevant_chunks": 112,
-      "relevant_pct": 8.5
+      "relevant_chunks": 125,
+      "relevant_pct": 9.5
     },
     {
       "database": "rusi",
@@ -178,8 +178,8 @@
       "last_updated": "2026-09-15",
       "languages": "DE",
       "num_chunks": 610,
-      "relevant_chunks": 26,
-      "relevant_pct": 4.3
+      "relevant_chunks": 28,
+      "relevant_pct": 4.6
     },
     {
       "database": "EVP-RUW",
@@ -187,8 +187,8 @@
       "last_updated": "2026-09-02",
       "languages": "RU",
       "num_chunks": 6979,
-      "relevant_chunks": 2549,
-      "relevant_pct": 36.5
+      "relevant_chunks": 2864,
+      "relevant_pct": 41.0
     },
     {
       "database": "VM",
@@ -205,8 +205,8 @@
       "last_updated": "2026-08-28",
       "languages": "RU",
       "num_chunks": 67455,
-      "relevant_chunks": 20596,
-      "relevant_pct": 30.5
+      "relevant_chunks": 20711,
+      "relevant_pct": 30.7
     },
     {
       "database": "ponars",
@@ -362,6 +362,15 @@
       "relevant_pct": 3.5
     },
     {
+      "database": "zugehoert_zmsbw",
+      "num_docs": 100,
+      "last_updated": "2026-08-06",
+      "languages": "DE",
+      "num_chunks": 357,
+      "relevant_chunks": 3,
+      "relevant_pct": 0.8
+    },
+    {
       "database": "federation_council",
       "num_docs": 102,
       "last_updated": "2026-07-28",
@@ -452,6 +461,15 @@
       "relevant_pct": 26.2
     },
     {
+      "database": "was_tun_herr_general",
+      "num_docs": 327,
+      "last_updated": "2026-04-22",
+      "languages": "DE",
+      "num_chunks": 1005,
+      "relevant_chunks": 13,
+      "relevant_pct": 1.3
+    },
+    {
       "database": "telegram_military units",
       "num_docs": 11060,
       "last_updated": "2026-03-22",
@@ -477,24 +495,6 @@
       "num_chunks": 6725,
       "relevant_chunks": 7,
       "relevant_pct": 0.1
-    },
-    {
-      "database": "zugehoert_zmsbw",
-      "num_docs": 91,
-      "last_updated": "2025-10-02",
-      "languages": "DE",
-      "num_chunks": 325,
-      "relevant_chunks": 0,
-      "relevant_pct": 0.0
-    },
-    {
-      "database": "was_tun_herr_general",
-      "num_docs": 278,
-      "last_updated": "2025-07-23",
-      "languages": "DE",
-      "num_chunks": 868,
-      "relevant_chunks": 0,
-      "relevant_pct": 0.0
     },
     {
       "database": "EVP-VM",
